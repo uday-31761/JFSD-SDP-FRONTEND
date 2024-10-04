@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Assignment Submission System</title>
+    <style>
+        body {
+            background-color: #f4f5f7;
+        }
+
+        .navbar {
+            background-color: #0b131b; /* Set navbar background color */
+        }
+
+        .navbar-brand img {
+            height: 50px;
+        }
+
+        .carousel {
+            height: 500px; 
+            overflow: hidden; 
+        }
+
+        .carousel-inner img {
+            height: 100%; 
+            width: 100%; 
+            object-fit: cover; 
+        }
+
+        .feature-section {
+            padding: 60px 0;
+        }
+
+        .feature-section img {
+            max-height: 200px; 
+            width: auto; 
+            object-fit: cover; 
+            margin-bottom: 15px; 
+        }
+
+        .call-to-action {
+            background-color: #007bff;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .call-to-action h2, .call-to-action p {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .about-section {
+            padding: 60px 0;
+        }
+
+        .about-content {
+            margin-top: 20px;
+        }
+
+        .about-content p, .about-content ul {
+            font-size: 1.1rem;
+        }
+
+        /* Responsive Navbar */
+        @media (max-width: 768px) {
+            .navbar-brand img {
+                height: 40px;
+            }
+
+            .about-content {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo2.jpg" alt="Logo">
+            <b>Online Assignment Submission & Grading System</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item"></li>
+                <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- About Section -->
+<div class="about-section">
+    <div class="container">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <p>Welcome to our Online Assignment Submission and Grading System! Our platform is designed to simplify the process of submitting and grading assignments for both students and educators. We are dedicated to providing a seamless and efficient solution to manage academic tasks and assessments.</p>
+
+            <h3>Our Mission</h3>
+            <p>Our mission is to enhance the educational experience by leveraging technology to streamline assignment submission and grading. We aim to create an intuitive and user-friendly environment where students can easily submit their assignments and receive timely feedback from their instructors.</p>
+
+            <h3>Features</h3>
+            <ul>
+                <li>Simple and secure assignment submission</li>
+                <li>Automated grading system</li>
+                <li>Real-time feedback and notifications</li>
+                <li>Comprehensive reporting and analytics</li>
+                <li>Easy integration with existing educational tools</li>
+            </ul>
+
+            <h3>Our Team</h3>
+            <p>Our team is composed of passionate educators, software developers, and designers who are committed to improving the education sector. We continuously work towards enhancing our platform based on feedback from our users.</p>
+
+            <h3>Contact Us</h3>
+            <p>If you have any questions or need assistance, feel free to <a href="contactus.html">contact us</a>. We are here to help you make the most out of our system.</p>
+
+            <p>Thank you for choosing our Online Assignment Submission and Grading System. We look forward to supporting your educational journey!</p>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Online Assignment Submission & Grading System. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
